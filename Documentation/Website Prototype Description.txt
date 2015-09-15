@@ -1,0 +1,87 @@
+Homepage:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Some sort of intro/'About Us' section; info about daycare etc.
+-Photos of daycare (? unsure if they should be in a gallery or just a few separate photos)
+
+Programs Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Short summary of each program, with links to subsequent Program Pages:
+
+  After-School Program Page:
+  -Header bar with logo and links to other site pages.
+  -Footer with physical building address, phone number, site copyright etc.
+  -Details of program, including dates and times the program runs from, etc.
+  -Program schedule.
+  -Photos of after-school program.
+  -Link to Registration Page.
+
+  Pre-School Program Page:
+  -Header bar with logo and links to other site pages.
+  -Footer with physical building address, phone number, site copyright etc.
+  -Details of program, including dates and times the program runs from, etc.
+  -Program schedule.
+  -Photos of pre-school program.
+  -Link to Registration Page.
+
+  Summer Program Page:
+  -Header bar with logo and links to other site pages.
+  -Footer with physical building address, phone number, site copyright etc.
+  -Details of program, including dates and times the program runs from, etc.
+  -Program schedule.
+  -Photos of summer program.
+  -Link to Registration Page.
+
+  Community Program Page(? Unsure if this merits its own page or not):
+  -Header bar with logo and links to other site pages.
+  -Footer with physical building address, phone number, site copyright etc.
+  -Details of community offerings (food giveaways, church, etc).
+
+Registration Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Information on registering for the daycare (such as times, availability, where to bring forms, what documentation to bring, etc.)
+-Link to Forms Page.
+
+Form Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright, etc.
+-Links to PDFs of all forms for the daycare (registration etc).
+-Possibly include browser-submittable forms(?; unsure of requirements such as signatures for forms such as registration).
+
+Staff Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Photos and short bios of staff.
+
+Contact Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Contact information such as mailing address and phone number.
+-Web contact form (sent as email to daycare):
+  -(Required) Name field.
+  -(Required) Email address field.
+  -(Optional) Phone number field.
+  -(Required) Subject field.
+  -(Required) Message field.
+
+Gallery Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Galler(ies) of photos from the daycare during various programs and times of day (possibly with separate galleries for each program).
+
+Calendar Page:
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Calendar of all daycare events outside of normal operating schedule.
+-Possible integration with Google Calendar, Outlook Calendar, and iCloud Calendar (? unsure of ability to integrate with all three in a non-awkward way).
+
+Blog/Updates Page (? unsure if it merits its own page or if the functionality should be merged with the homepage):
+-Header bar with logo and links to other site pages.
+-Footer with physical building address, phone number, site copyright etc.
+-Wordpress/Drupal/other CMS integrated blog post/update system for client to post updates etc for the daycare.
+
+Misc (? these are things I was unsure of entirely but seem like a good idea)
+-Newsletter.
+-Email or text alerts for closings etc (text alerts seem to be a little too much but email alerts could work).
