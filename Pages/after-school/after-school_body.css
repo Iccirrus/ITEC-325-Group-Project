@@ -1,0 +1,269 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'CandelaFont';
+    src: url('../../Assets/candela/candelabook-webfont.eot');
+    src: url('../../Assets/candela/candelabook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../Assets/candela/candelabook-webfont.woff2') format('woff2'),
+         url('../../Assets/candela/candelabook-webfont.woff') format('woff'),
+         url('../../Assets/candela/candelabook-webfont.ttf')  format('truetype'),
+         url('../../Assets/candela/candelabook-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+    font-family:'AftaFont';
+    src:url('../../Assets/afta/aftasansthin-regular-webfont.eot');
+    src:url('../../Assets/afta/aftasansthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../Assets/afta/aftasansthin-regular-webfont.woff2') format('woff2'),
+        url('../../Assets/afta/aftasansthin-regular-webfont.woff') format('woff'),
+        url('../../Assets/afta/aftasansthin-regular-webfont.ttf')  format('truetype'),
+        url('../../Assets/afta/aftasansthin-regular-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+    font-family:'ComicSerif';
+    src:url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.eot');
+    src:url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
+        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.woff') format('woff'),
+        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.ttf')  format('truetype'),
+        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.svg#svgFontName') format('svg');
+}
+.menu,
+.menu ul,
+.menu li,
+.menu a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.menu {
+    height: 45px;
+    width: 990px; 
+} 
+.menu li {
+    position: relative;
+    list-style: none;
+    float: left;
+    display: block;
+    height: 45px; 
+}
+.menu ul {
+    position: absolute;
+    z-index: 99;
+    top:-5px;
+    border:3px solid;
+    border-radius: 10px 10px 10px 10px;
+    width: 110px;
+    display:none;
+    background: #006600;
+    transition: opacity .25s ease .1s;
+}
+.home_menu {
+    left:-3px;
+}
+.programs_menu {
+    left:440px;
+}
+.registration_menu {
+    left:550px;
+}
+.menu li a {
+    display: list-item;
+    text-decoration: none;
+    text-align: center;
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    font-family: 'ComicSerif';
+} 
+.menu li:first-child a { 
+    border-left: none; 
+}
+.menu li:last-child a{ 
+    border-right: none; 
+}
+.menu li:hover > a { 
+    color: #fef200; 
+}
+.menu li:hover > ul { 
+    display:inherit;
+}
+.menu ul li {
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    transition: height .25s ease .1s;
+}
+.menu li:hover > ul li {
+    height: auto;
+    overflow: visible;
+    padding: 0;
+}
+.menu ul li a {
+    display:list-item;
+    width: 110px;
+    padding:5px 0px 5px 0px;
+    margin: 0px;
+    line-height:20px;
+    border: none;
+    color:white;
+    text-decoration: none;
+    font-size:10pt;
+    letter-spacing:1px;
+    text-align: center;  
+    border-bottom: solid black;
+    font-size: 10pt;
+    height:auto;
+}
+.menu ul li:last-child a { 
+    border: none; 
+}
+.clear {
+    clear:both;
+}
+.home_button {
+    position:absolute;
+    list-style-type:none;
+    top:-50px;
+    left:-3px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+    border-radius:0px 0px 0px 10px;
+}
+.about_button {
+    position:absolute;
+    list-style-type:none;
+    left:110px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+}
+.staff_button {
+    position:absolute;
+    list-style-type:none;
+    left:220px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+}
+.calendar_button {
+    position:absolute;
+    list-style-type:none;
+    left:330px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+}
+.programs_button {
+    position:absolute;
+    list-style-type:none;
+    left:440px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+}
+.registration_button {
+    position:absolute;
+    list-style-type:none;
+    left:550px;
+    top:-50px;
+    padding:0px;
+    z-index:2;
+    border:solid black;
+}
+.forms_button {
+    position:absolute;
+    list-style-type:none;
+    left:656px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+}
+.gallery_button {
+    position:absolute;
+    list-style-type:none;
+    left:760px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+}
+.contact_button {
+    position:absolute;
+    list-style-type:none;
+    left:865px;
+    top:-50px;
+    padding:0px;
+    z-index:1;
+    border:solid black;
+    border-radius:0px 0px 10px 0px;
+}
+.page {
+    background-color:#fef200;
+}
+.headerimage {
+    border-radius:6px;
+    z-index:-1;
+}
+.siteheader {
+    display:inline-block;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:0 auto;
+    height:248px;
+    width:990px;
+    align-content:center;
+    text-align:center;
+    border:solid black;
+    border-radius:10px;
+}
+.body {
+    font-family:'CandelaFont';
+	display:inline-block;
+	position:absolute;
+	left:0;
+	right:0;
+	top:250px;
+	bottom:0;
+	margin:0 auto;
+	align-content:center;
+	text-align:center;
+	border:solid black;
+	background-color:#FFFFFF;
+    border-radius:10px;
+	width:990px;
+    height:495px;
+}
+.after_header {
+    font-family:'ComicSerif';
+    color:#006600;
+    font-size:38pt;
+    width:300px;
+    align-content:left;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+}
+.sitefooter{
+    font-family:'AftaFont';
+    font-size:8pt;
+    position:absolute;
+    top:748px;
+    left:50%;
+    margin-left:-498px;
+    background-color:#006600;
+    width:990px;
+    height:auto;
+    text-align:center;
+    color:#FFFFFF;
+	border:outset;
+	border-radius:10px;
+	border-color:black;
+}

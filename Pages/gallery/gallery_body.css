@@ -241,12 +241,10 @@
 	width:990px;
     height:495px;
 }
-.contact_header {
+.gallery_header {
     font-family:'ComicSerif';
     color:#006600;
     font-size:38pt;
-    border:5px solid black;
-    border-radius:10px;
     width:300px;
     align-content:left;
     text-align:center;
