@@ -267,3 +267,15 @@
 	border-radius:10px;
 	border-color:black;
 }
+.sitefooter a:link {
+    color: #FFFFFF;
+}
+.sitefooter a:visited {
+    color: #FEF200;
+}
+.sitefooter a:hover {
+    color: #FEF200;
+}
+.sitefooter a:active {
+    color: #FEF200;
+}
