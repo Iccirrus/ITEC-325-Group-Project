@@ -42,7 +42,22 @@
                         <li><a href="../contact_us/contact_us.html"><img class="contact_button" src="../../assets/images/header_contact.png" height="42" width="107" onmouseover="this.src='../../assets/images/header_contact_hover.png';" onmouseout="this.src='../../assets/images/header_contact.png';"/></a></li>
                     </ul>
             </header>
-			<main class="body"> <h1 class="contact_header">Contact Us</h1></main>
+            <main class="body"> <h1 class="contact_header">Contact Us</h1></br>
+            <form action = "contact.php" method = "post">
+	Your Name<br>
+	<input type = "text" name = "contactName"><br>
+	Your E-Mail<br>
+	<input type = "text" name = "contactEmail"><br>
+	Recipient<br>
+	<input type = "text" name = "recipient"><br>
+	Subject<br>
+	<input type = "text" name = "subject"><br>
+	Your Message<br>
+	<textarea name = "messageOut"><br>
+        <br>
+	<input type = "submit" value = "Send">
+	<input type = "reset" vaule = "Clear">
+   </form></main>
 			<footer class="sitefooter"> <a href="../homepage/homepage.html">Home</a> | <a href="../sitemap/sitemap.html">Sitemap</a> | <a href="../about_us/about_us.html">About</a> | <a href="../contact_us/contact_us.html">Contact 
 				<br>
 				1820 2nd St, Radford, VA 24141 | (540) 267-3000
