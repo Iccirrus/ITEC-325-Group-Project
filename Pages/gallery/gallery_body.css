@@ -1,30 +1,30 @@
 @charset "UTF-8";
 @font-face {
     font-family:'CandelaFont';
-    src: url('../../Assets/candela/candelabook-webfont.eot');
-    src: url('../../Assets/candela/candelabook-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../Assets/candela/candelabook-webfont.woff2') format('woff2'),
-         url('../../Assets/candela/candelabook-webfont.woff') format('woff'),
-         url('../../Assets/candela/candelabook-webfont.ttf')  format('truetype'),
-         url('../../Assets/candela/candelabook-webfont.svg#svgFontName') format('svg');
+    src: url('../../assets/candela/candelabook-webfont.eot');
+    src: url('../../assets/candela/candelabook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/candela/candelabook-webfont.woff2') format('woff2'),
+         url('../../assets/candela/candelabook-webfont.woff') format('woff'),
+         url('../../assets/candela/candelabook-webfont.ttf')  format('truetype'),
+         url('../../assets/candela/candelabook-webfont.svg#svgFontName') format('svg');
 }
 @font-face {
     font-family:'AftaFont';
-    src:url('../../Assets/afta/aftasansthin-regular-webfont.eot');
-    src:url('../../Assets/afta/aftasansthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../../Assets/afta/aftasansthin-regular-webfont.woff2') format('woff2'),
-        url('../../Assets/afta/aftasansthin-regular-webfont.woff') format('woff'),
-        url('../../Assets/afta/aftasansthin-regular-webfont.ttf')  format('truetype'),
-        url('../../Assets/afta/aftasansthin-regular-webfont.svg#svgFontName') format('svg');
+    src:url('../../assets/afta/aftasansthin-regular-webfont.eot');
+    src:url('../../assets/afta/aftasansthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/afta/aftasansthin-regular-webfont.woff2') format('woff2'),
+        url('../../assets/afta/aftasansthin-regular-webfont.woff') format('woff'),
+        url('../../assets/afta/aftasansthin-regular-webfont.ttf')  format('truetype'),
+        url('../../assets/afta/aftasansthin-regular-webfont.svg#svgFontName') format('svg');
 }
 @font-face {
     font-family:'ComicSerif';
-    src:url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.eot');
-    src:url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
-        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
-        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.woff') format('woff'),
-        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.ttf')  format('truetype'),
-        url('../../Assets/comicserif/hvd_comic_serif_pro-webfont.svg#svgFontName') format('svg');
+    src:url('../../assets/comicserif/hvd_comic_serif_pro-webfont.eot');
+    src:url('../../assets/comicserif/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../../assets/comicserif/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
+        url('../../assets/comicserif/hvd_comic_serif_pro-webfont.woff') format('woff'),
+        url('../../assets/comicserif/hvd_comic_serif_pro-webfont.ttf')  format('truetype'),
+        url('../../assets/comicserif/hvd_comic_serif_pro-webfont.svg#svgFontName') format('svg');
 }
 .menu,
 .menu ul,
