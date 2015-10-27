@@ -256,12 +256,16 @@
 }
 .form {
     border:0px;
-    text-align:left;
+    text-align:center;
     display:inline-block;
     position:absolute;
-    align-content:left;
+    align-content:center;
     left:50px;
     top:150px;
+}
+.form h3 {
+    align-content:center;
+    text-align:center;
 }
 .map {
     display:inline-block;

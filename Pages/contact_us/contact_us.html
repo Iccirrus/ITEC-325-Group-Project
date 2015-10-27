@@ -47,29 +47,29 @@
             <main class="body">
                 <h1 class="contact_header">Contact Us</h1>
                 <br>
-                <p class="contact_info">Questions? Send us an email or visit us in person and we'll be happy to answer!</p>
+                <p class="contact_info">Questions? Send us an email, call us, or visit us in person and we'll be happy to answer!</p>
                 <br>
                 <div class="form">
-                    <h3>Send Us an Email</h3>
-                    <form id="contact_form" action ="contact.php" method ="post">
+                    <h3>Email Us</h3>
+                    <form id="contact_form" action="contact.php" method="post">
 	                    Your Name
                         <br>
-                        <input type = "text" name = "contactName">
+                        <input type="text" name="contactName">
                         <br>
                         Your E-Mail
                         <br>
-                        <input type = "text" name = "contactEmail">
+                        <input type="text" name="contactEmail">
                         <br>
                         Subject
                         <br>
-                        <input type = "text" name = "subject">
+                        <input type="text" name="subject">
                         <br>
 	                    Your Message
                         <br>
-                        <textarea name = "messageOut" cols=50 rows=10></textarea>
+                        <textarea name="messageOut" cols=50 rows=10></textarea>
                         <br>
-	                    <input type = "submit" value = "Send">
-	                    <input type = "reset" vaule = "Clear">
+	                    <input type="submit" value="Send">
+	                    <input type="reset" vaule="Clear">
                     </form>
                     <script type="text/javascript">
                         var frmvalidator  = new Validator("contact_form");
@@ -79,6 +79,10 @@
                         frmvalidator.addValidation("subject","req","A subject for your message is required.");
                         frmvalidator.addValidation("messageOut","req","A message is required.");
                     </script>
+                </div>
+                <div>
+                    <h3>Call Us</h3>
+                    (540) 267-3000
                 </div>
                 <div class="map">
                     <h3>Visit Us</h3>
