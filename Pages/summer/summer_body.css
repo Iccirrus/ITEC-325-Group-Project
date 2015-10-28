@@ -286,6 +286,9 @@
     cursor:pointer;
     color:#006600;
 }
+.underline {
+    text-decoration:underline;
+}
 #tuesday { 
     display:none; 
 }

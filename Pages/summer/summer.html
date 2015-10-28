@@ -59,7 +59,7 @@
                 <a name="schedule">
                     <h2>Daily Schedule</h2>
                     <p id="day_toggle" class="toggle_menu">
-                        <span>Monday</span> | <span>Tuesday</span> | <span>Wednesday</span> | <span>Thursday</span> | <span>Friday</span>
+                        <span id="mon_menu" class="underline">Monday</span> | <span id="tue_menu">Tuesday</span> | <span id="wed_menu">Wednesday</span> | <span id="thu_menu">Thursday</span> | <span id="fri_menu">Friday</span>
                     </p>
                     <div id="monday">
                         <dl>
@@ -208,15 +208,30 @@
 				1820 2nd St, Radford, VA 24141 | (540) 267-3000
 			</footer>
             <script>
+                $(document).ready(function() {
                     $('#day_toggle > span').click(function() {
                     var tg = $(this).index();
-    
+    				$(this).siblings().removeClass('underline');
+    				
                     $('#monday').toggle( tg === 0 );
                     $('#tuesday').toggle( tg === 1 );
                     $('#wednesday').toggle( tg === 2 );
                     $('#thursday').toggle( tg === 3 );
                     $('#friday').toggle( tg === 4 );
+    
+    				switch(tg) {
+                        case 1: $('#tue_menu').addClass('underline');
+                            break;
+                        case 2: $('#wed_menu').addClass('underline');
+                            break;
+                        case 3: $('#thu_menu').addClass('underline');
+                            break;
+                        case 4: $('#fri_menu').addClass('underline');
+                            break;
+                        default: $('#mon_menu').addClass('underline');
+                    }
                     });
+                });
             </script>
 		</body>
     </html>
