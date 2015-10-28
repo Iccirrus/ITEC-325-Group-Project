@@ -230,7 +230,7 @@
 	background-color:#FFFFFF;
     border-radius:10px;
 	width:990px;
-    height:990px;
+    height:1440px;
 }
 .staff_header {
     font-family:'ComicSerif';
@@ -307,7 +307,7 @@
     font-family:'CandelaFont';
     font-size:10pt;
     position:absolute;
-    top:1243px;
+    top:1693px;
     left:50%;
     margin-left:-498px;
     background-color:#006600;

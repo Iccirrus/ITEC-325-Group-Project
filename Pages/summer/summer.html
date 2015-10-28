@@ -6,6 +6,9 @@
 				<style type="text/css">
 					@import url("summer_body.css");
 				</style>
+                <link rel="icon" type="image/png" href="../../assets/images/favicon-32x32.png" sizes="32x32"/>
+                <link rel="icon" type="image/png" href="../../assets/favicon-16x16.png" sizes="16x16"/>
+                <script src="jquery-1.11.3.min.js"></script>
 			</head>
 		<body class="page">
 			<header class="siteheader"><img class="headerimage" src="../../assets/images/ROCKClubHeader1.png" width="990" height="248" alt=""/>
@@ -44,10 +47,176 @@
             </header>
 			<main class="body">
                 <h1 class="summer_header">Summer Program</h1>
+                <div class="jump_to">
+                    <a href="summer.html#program">Our Program</a> | <a href="summer.html#schedule">Daily Schedule</a> | <a href="summer.html#forms">Forms &amp; Information</a>
+                </div>
+                <a name="program">
+                    <h2>Our Summer Program</h2>
+                </a>
+                <br>
+                <hr>
+                <br>
+                <a name="schedule">
+                    <h2>Daily Schedule</h2>
+                    <p id="day_toggle" class="toggle_menu">
+                        <span>Monday</span> | <span>Tuesday</span> | <span>Wednesday</span> | <span>Thursday</span> | <span>Friday</span>
+                    </p>
+                    <div id="monday">
+                        <dl>
+                            <dt>6:30AM</dt>
+                                <dd>Center opens, choice of activity.</dd>
+                            <dt>8:00AM</dt>
+                                <dd>Breakfast is served, choice of activity.</dd>
+                            <dt>9:30AM</dt>
+                                <dd>Large group - We will gather in the Youth Sanctuary for a time of music, Bible games, and activities centered on a weekly theme.</dd>
+                            <dt>10:00AM</dt>
+                                <dd>Small groups - Kids will split up into small groups for an age appropriate Bible lesson that corresponds to the theme. The groups will rotate between arts &amp; crafts, group building games, and other activities that reinforce the theme for the week.</dd>
+                            <dt>11:20AM</dt>
+                                <dd>Cleanup and preparation for lunch.</dd>
+                            <dt>11:30AM</dt>
+                                <dd>Lunch is served - Group A will eat lunch first.</dd>
+                            <dt>12:00PM</dt>
+                                <dd>Lunch cleanup. Group A will get ready to go to the pool; Group B will play in the gym or on the playground.</dd>
+                            <dt>12:30PM</dt>
+                                <dd>Group A leaves for the pool, Group B goes to the upstairs game room.</dd>
+                            <dt>3:30PM</dt>
+                                <dd>Group A returns from the pool, cleanup and preparation for snack time.</dd>
+                            <dt>4:00PM</dt>
+                                <dd>Snack time.</dd>
+                            <dt>4:30PM</dt>
+                                <dd>Afternoon large group - We will gather for music, games, and a review of the day’s lesson.</dd>
+                            <dt>6:00PM</dt>
+                                <dd>Go home.</dd>
+                        </dl>
+                    </div>
+                    <div id="tuesday">
+                        <dl>
+                            <dt>6:30AM</dt>
+                                <dd>Center opens, choice of activity.</dd>
+                            <dt>8:00AM</dt>
+                                <dd>Breakfast is served, choice of activity.</dd>
+                            <dt>9:30AM</dt>
+                                <dd>Large group - We will gather in the Youth Sanctuary for a time of music, Bible games, and activities centered on a weekly theme.</dd>
+                            <dt>10:00AM</dt>
+                                <dd>Small groups - Kids will split up into small groups for an age appropriate Bible lesson that corresponds to the theme. The groups will rotate between arts &amp; crafts, group building games, and other activities that reinforce the theme for the week.</dd>
+                            <dt>11:20AM</dt>
+                                <dd>Cleanup and preparation for lunch.</dd>
+                            <dt>11:30AM</dt>
+                                <dd>Lunch is served - Group B will eat lunch first.</dd>
+                            <dt>12:00PM</dt>
+                                <dd>Lunch cleanup. Group B will get ready to go to the pool; Group A will play in the gym or on the playground.</dd>
+                            <dt>12:30PM</dt>
+                                <dd>Group B leaves for the pool, Group A goes to the upstairs game room.</dd>
+                            <dt>3:30PM</dt>
+                                <dd>Group B returns from the pool, cleanup and preparation for snack time.</dd>
+                            <dt>4:00PM</dt>
+                                <dd>Snack time.</dd>
+                            <dt>4:30PM</dt>
+                                <dd>Afternoon large group - We will gather for music, games, and a review of the day’s lesson.</dd>
+                            <dt>6:00PM</dt>
+                                <dd>Go home.</dd>
+                        </dl>
+                    </div>
+                    <div id="wednesday">
+                        <dl>
+                            <dt>6:30AM</dt>
+                                <dd>Center opens, choice of activity.</dd>
+                            <dt>8:00AM</dt>
+                                <dd>Breakfast is served, choice of activity.</dd>
+                            <dt>9:30AM</dt>
+                                <dd>Large group - We will gather in the Youth Sanctuary for a time of music, Bible games, and activities centered on a weekly theme.</dd>
+                            <dt>10:00AM</dt>
+                                <dd>Small groups - Kids will split up into small groups for an age appropriate Bible lesson that corresponds to the theme. The groups will rotate between arts &amp; crafts, group building games, and other activities that reinforce the theme for the week.</dd>
+                            <dt>11:20AM</dt>
+                                <dd>Cleanup and preparation for lunch.</dd>
+                            <dt>11:30AM</dt>
+                                <dd>Lunch is served - Group A will eat lunch first.</dd>
+                            <dt>12:00PM</dt>
+                                <dd>Lunch cleanup. Group A will get ready to go to the pool; Group B will play in the gym or on the playground.</dd>
+                            <dt>12:30PM</dt>
+                                <dd>Group A leaves for the pool, Group B has a movie day.</dd>
+                            <dt>3:30PM</dt>
+                                <dd>Group A returns from the pool, cleanup and preparation for snack time.</dd>
+                            <dt>4:00PM</dt>
+                                <dd>Snack time.</dd>
+                            <dt>4:30PM</dt>
+                                <dd>Afternoon large group - We will gather for music, games, and a review of the day’s lesson.</dd>
+                            <dt>6:00PM</dt>
+                                <dd>Go home.</dd>
+                        </dl>
+                    </div>
+                    <div id="thursday">
+                        <dl>
+                            <dt>6:30AM</dt>
+                                <dd>Center opens, choice of activity.</dd>
+                            <dt>8:00AM</dt>
+                                <dd>Breakfast is served, choice of activity.</dd>
+                            <dt>9:30AM</dt>
+                                <dd>Large group - We will gather in the Youth Sanctuary for a time of music, Bible games, and activities centered on a weekly theme.</dd>
+                            <dt>10:00AM</dt>
+                                <dd>Small groups - Kids will split up into small groups for an age appropriate Bible lesson that corresponds to the theme. The groups will rotate between arts &amp; crafts, group building games, and other activities that reinforce the theme for the week.</dd>
+                            <dt>11:20AM</dt>
+                                <dd>Cleanup and preparation for lunch.</dd>
+                            <dt>11:30AM</dt>
+                                <dd>Lunch is served - Group B will eat lunch first.</dd>
+                            <dt>12:00PM</dt>
+                                <dd>Lunch cleanup. Group B will get ready to go to the pool; Group A will play in the gym or on the playground.</dd>
+                            <dt>12:30PM</dt>
+                                <dd>Group B leaves for the pool, Group A has a movie day.</dd>
+                            <dt>3:30PM</dt>
+                                <dd>Group B returns from the pool, cleanup and preparation for snack time.</dd>
+                            <dt>4:00PM</dt>
+                                <dd>Snack time.</dd>
+                            <dt>4:30PM</dt>
+                                <dd>Afternoon large group - We will gather for music, games, and a review of the day’s lesson.</dd>
+                            <dt>6:00PM</dt>
+                                <dd>Go home.</dd>
+                        </dl>
+                    </div>
+                    <div id="friday">
+                        <dl>
+                            <dt>6:30AM</dt>
+                                <dd>Center opens, choice of activity.</dd>
+                            <dt>8:00AM</dt>
+                                <dd>Breakfast is served, choice of activity.</dd>
+                            <dt>9:30AM</dt>
+                                <dd>Large group - We will gather in the Youth Sanctuary for a time of music, Bible games, and activities centered on a weekly theme.</dd>
+                            <dt>10:00AM</dt>
+                                <dd>Small groups - Kids will split up into small groups for an age appropriate Bible lesson that corresponds to the theme. The groups will rotate between arts &amp; crafts, group building games, and other activities that reinforce the theme for the week.</dd>
+                            <dt>11:20AM</dt>
+                                <dd>Cleanup and preparation for lunch.</dd>
+                            <dt>11:30AM</dt>
+                                <dd>Lunch is served.</dd>
+                            <dt>12:00PM</dt>
+                                <dd>Lunch cleanup and organized play in the gym or on the playground.</dd>
+                            <dt>12:30PM</dt>
+                                <dd>We will have an outing or special activity planned. (We will let you know in advance if this requires any special action on your part.)</dd>
+                            <dt>3:30PM</dt>
+                                <dd>Cleanup and preparation for snack time.</dd>
+                            <dt>4:00PM</dt>
+                                <dd>Snack time.</dd>
+                            <dt>4:30PM</dt>
+                                <dd>Afternoon large group - We will gather for music, games, and a review of the day’s lesson.</dd>
+                            <dt>6:00PM</dt>
+                                <dd>Go home.</dd>
+                        </dl>
+                    </div>
+                </a>
             </main>
-			<footer class="sitefooter"> <a href="../homepage/homepage.html">Home</a> | <a href="../sitemap/sitemap.html">Sitemap</a> | <a href="../about_us/about_us.html">About</a> | <a href="../contact_us/contact_us.html">Contact 
+            <footer class="sitefooter"> <a href="../homepage/homepage.html">Home</a> | <a href="../sitemap/sitemap.html">Sitemap</a> | <a href="../about_us/about_us.html">About</a> | <a href="../contact_us/contact_us.html">Contact</a>
 				<br>
 				1820 2nd St, Radford, VA 24141 | (540) 267-3000
 			</footer>
+            <script>
+                    $('#day_toggle > span').click(function() {
+                    var tg = $(this).index();
+    
+                    $('#monday').toggle( tg === 0 );
+                    $('#tuesday').toggle( tg === 1 );
+                    $('#wednesday').toggle( tg === 2 );
+                    $('#thursday').toggle( tg === 3 );
+                    $('#friday').toggle( tg === 4 );
+                    });
+            </script>
 		</body>
     </html>
