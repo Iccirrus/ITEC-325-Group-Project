@@ -263,6 +263,18 @@
     left:50px;
     top:150px;
 }
+.call {
+    display:inline-block;
+    position:absolute;
+    align-content:center;
+    right:50px;
+    left:50px;
+    top:150px;
+}
+.call h3 {
+    align-content:center;
+    text-align:center;
+}
 .form h3 {
     align-content:center;
     text-align:center;
