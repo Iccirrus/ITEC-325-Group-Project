@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'CandelaFont';
+    src: url('../candela/candelabook-webfont.eot');
+    src: url('../candela/candelabook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../candela/candelabook-webfont.woff2') format('woff2'),
+         url('../candela/candelabook-webfont.woff') format('woff'),
+         url('../candela/candelabook-webfont.ttf')  format('truetype'),
+         url('../candela/candelabook-webfont.svg#svgFontName') format('svg');
+}
+@font-face {
+    font-family:'ComicSerif';
+    src:url('../comicserif/hvd_comic_serif_pro-webfont.eot');
+    src:url('../comicserif/hvd_comic_serif_pro-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../comicserif/hvd_comic_serif_pro-webfont.woff2') format('woff2'),
+        url('../comicserif/hvd_comic_serif_pro-webfont.woff') format('woff'),
+        url('../comicserif/hvd_comic_serif_pro-webfont.ttf')  format('truetype'),
+        url('../comicserif/hvd_comic_serif_pro-webfont.svg#svgFontName') format('svg');
+}
+.rock_logo {
+    position:absolute;
+    display:inline-block;
+    margin:auto;
+    left:0;
+    right:0;
+    top:100px;
+    height:300px;
+    width:450px;
+}
+.under_construction {
+    position:absolute;
+    display:inline-block;
+    margin:auto;
+    left:0;
+    right:0;
+    top:400px;
+    height:300px;
+    width:450px;
+    font-family:'ComicSerif';
+    align-content:center;
+    text-align:center;
+    color:#000066;
+}
