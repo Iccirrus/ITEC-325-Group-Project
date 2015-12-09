@@ -230,7 +230,7 @@
 	background-color:#FFFFFF;
     border-radius:10px;
 	width:990px;
-    height:495px;
+    height:815px;
 }
 .calendar_header {
     font-family:'ComicSerif';
@@ -246,7 +246,7 @@
     font-family:'CandelaFont';
     font-size:10pt;
     position:absolute;
-    top:748px;
+    top:1068px;
     left:50%;
     margin-left:-498px;
     background-color:#006600;

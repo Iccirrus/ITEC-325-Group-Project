@@ -230,7 +230,7 @@
 	background-color:#FFFFFF;
     border-radius:10px;
 	width:990px;
-    height:2940px;
+    height:2080px;
 }
 .staff_header {
     font-family:'ComicSerif';
@@ -258,6 +258,15 @@
 }
 .jump_to a:active {
     color: #006600;
+}
+.staff_qual_desc {
+    margin:25px;
+}
+.staff_qual {
+    margin:0 auto;
+    width:600px;
+    line-height:25px;
+    text-align:left;
 }
 .staff_info {
     width:900px;
@@ -330,7 +339,7 @@
     font-family:'CandelaFont';
     font-size:10pt;
     position:absolute;
-    top:3193px;
+    top:2333px;
     left:50%;
     margin-left:-498px;
     background-color:#006600;

@@ -1,0 +1,52 @@
+<!doctype html>
+	<html>
+			<head>
+				<meta charset="UTF-8">
+				<title>Update Registration Information</title>
+				<style type="text/css">
+					@import url("form.css");
+				</style>
+                <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32"/>
+                <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16"/>
+			</head>
+            <body>
+                <main>
+                    <div class="rock_logo">
+                        <img src="../images/rock_club_logo.png" height=200 width=300>
+                    </div>
+                    <br>
+                    <h2>Update Registration Information</h2>
+                    <hr>
+                    <br>
+                    <div class="form">
+                        <form id="spots_form" action="update_spots.php" method="post">
+	                    Pre-School Spots Available (Enter a number between 0 and 100): 
+                        <input type="text" name="pre_spots">
+                        <br>
+                        <br>
+                        Pre-School Waiting List (Enter a number between 0 and 100): 
+                        <input type="text" name="pre_wait">
+                        <br>
+                        <br>
+                        After-School Spots Available (Enter a number between 0 and 100): 
+                        <input type="text" name="after_spots">
+                        <br>
+                        <br>
+                        After-School Waiting List (Enter a number between 0 and 100): 
+                        <input type="text" name="after_wait">
+                        <br>
+                        <br>
+                        Summer Spots Available (Enter a number between 0 and 100): 
+                        <input type="text" name="summer_spots">
+                        <br>
+                        <br>
+                        Summer Waiting List (Enter a number between 0 and 100): 
+                        <input type="text" name="summer_wait">
+                        <br>
+                        <br>
+	                    <input type="submit" value="Submit">
+                    </form>
+                    </div>
+                </main>
+            </body>
+    </html>

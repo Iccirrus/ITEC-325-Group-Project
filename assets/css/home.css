@@ -195,6 +195,7 @@
 }
 .page {
     background-color:#fef200;
+    margin:0 auto;
 }
 .headerimage {
     border-radius:6px;
@@ -217,20 +218,67 @@
 }
 .body {
     font-family:'CandelaFont';
-	display:inline-block;
+	display:block;
 	position:absolute;
-	left:0;
-	right:0;
+    left:50%;
+    margin-left:-498px;
 	top:250px;
 	bottom:0;
-	margin:0 auto;
 	align-content:center;
 	text-align:center;
 	border:solid black;
 	background-color:#FFFFFF;
+    border-radius:10px 0px 0px 10px;
+	width:738px;
+    height:1100px;
+}
+.twitter {
+    position:absolute;
+    height:1100px;
+    width:250px;
+    top:250px;
+    border:solid black;
+    border-radius:0px 10px 10px 0px;
+    left:50%;
+    margin-left:242px;
+    background:#FFFFFF;
+}
+.feed_header {
+    font-family:'ComicSerif';
+    color:#006600;
+    text-align:center;
+}
+.timeline {
+    position:absolute;
+    display:inline-block;
+    bottom:0px;
+    left:10px;
+}
+.rock_quote {
+    margin:25px;
+    font-style:italic;
+    font-weight:bold;
+}
+hr {
+    width:660px;
+    border:solid black;
+    border-width:1.5px;
     border-radius:10px;
-	width:990px;
-    height:495px;
+}
+.content {
+    margin:25px;
+}
+.proverbs {
+    font-size:90%;
+    font-style:italic;
+}
+.source {
+    text-align:right;
+    margin-left:400px;
+    font-size:85%;
+}
+.source a {
+    color:#006600;
 }
 .home_header {
     font-family:'ComicSerif';
@@ -245,7 +293,7 @@
     font-family:'CandelaFont';
     font-size:10pt;
     position:absolute;
-    top:748px;
+    top:1353px;
     left:50%;
     margin-left:-498px;
     background-color:#006600;

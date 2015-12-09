@@ -2,9 +2,9 @@
 	<html>
 			<head>
 				<meta charset="UTF-8">
-				<title>Registration Dates &amp; Times</title>
+				<title>Blog &amp; Updates</title>
 				<style type="text/css">
-					@import url("assets/css/dates.css");
+					@import url("assets/css/blog_updates.css");
 				</style>
                 <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32"/>
                 <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16"/>
@@ -45,7 +45,7 @@
                     </ul>
             </header>
 			<main class="body">
-                <h1 class="dates_header">Registration Dates &amp; Times</h1>
+                <h1 class="blog_header">What's Up at R.O.C.K. Club?</h1>
             </main>
             <footer class="sitefooter"> <a href="homepage.html">Home</a> | <a href="sitemap.html">Sitemap</a> | <a href="about_us.html">About</a> | <a href="contact_us.html">Contact</a>
 				<br>

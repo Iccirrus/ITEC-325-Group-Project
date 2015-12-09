@@ -242,6 +242,9 @@
     display:inline-block;
     position:relative;
 }
+.content {
+    margin:25px;
+}
 .sitefooter{
     font-family:'CandelaFont';
     font-size:10pt;

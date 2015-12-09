@@ -232,6 +232,47 @@
 	width:990px;
     height:495px;
 }
+.jump_to {
+    font-size:15pt;
+    padding-bottom:25px;
+}
+.jump_to a:link {
+    color: #000000;
+    text-decoration:none;
+}
+.jump_to a:visited {
+    color: #000000;
+}
+.jump_to a:hover {
+    color: #006600;
+}
+.jump_to a:active {
+    color: #006600;
+}
+.body dl {
+    display:inline-block;
+    align-content:center;
+    text-align:center;
+    margin:0 auto;
+}
+.body dd {
+    padding-bottom:15px;
+    align-content:center;
+    text-align:center;
+    margin:0 auto;
+}
+.body dt {
+    align-content:center;
+    text-align:center;
+    font-weight:bold;
+    margin:0 auto;
+}
+.body hr {
+    width:660px;
+    border:solid black;
+    border-width:1.5px;
+    border-radius:10px;
+}
 .after_header {
     font-family:'ComicSerif';
     color:#006600;

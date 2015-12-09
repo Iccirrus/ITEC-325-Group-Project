@@ -1,0 +1,22 @@
+.rock_logo {
+    position:absolute;
+    display:inline-block;
+    margin:0 auto;
+    left:0;
+    right:0;
+    top:100px;
+    height:300px;
+    width:450px;
+}
+.form {
+    position:absolute;
+    display:inline-block;
+    margin:0 auto;
+    left:0;
+    right:0;
+    top:400px;
+    height:300px;
+    width:450px;
+    text-align:center;
+    align-content:center;
+}

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'CandelaFont';
+    src: url('../candela/candelabook-webfont.eot');
+    src: url('../candela/candelabook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../candela/candelabook-webfont.woff2') format('woff2'),
+         url('../candela/candelabook-webfont.woff') format('woff'),
+         url('../candela/candelabook-webfont.ttf')  format('truetype'),
+         url('../candela/candelabook-webfont.svg#svgFontName') format('svg');
+}
+.success {
+    position:absolute;
+    display:inline-block;
+    margin:0 auto;
+    left:0;
+    right:0;
+    top:100px;
+    height:300px;
+    width:450px;
+    text-align:center;
+    align-content:center;
+}
+h2 {
+    font-family:'CandelaFont';
+}

@@ -7,7 +7,7 @@
 					@import url("assets/css/staff.css");
 				</style>
                 <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32"/>
-                <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16"/>
+                <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16"/>
                 <script src="assets/scripts/jquery-1.11.3.min.js"></script>
 			</head>
 		<body class="page">
@@ -34,9 +34,8 @@
                         </li>
                         <li><a href="registration.html"><img class="registration_button" src="assets/images/header_registration.png" height="42" width="110" onmouseover="this.src='assets/images/header_registration_hover.png';" onmouseout="this.src='assets/images/header_registration.png';"/></a>
                             <ul class="registration_menu">
-                                <li><a href="how_to_register.html">How to Register</a></li>
-                                <li><a href="dates_and_times.html">Dates &amp; Times</a></li>
                                 <li><a href="tuition_and_fees.html">Tuition &amp; Fees</a></li>
+                                <li><a href="payment.html">Payment Information</a></li>
                             </ul>
                             <br class="clear">
                         </li>
@@ -48,8 +47,34 @@
 			<main class="body">
                 <h1 class="staff_header">Our Staff</h1>
                     <div class="jump_to">
-                        <a href="our_staff.html#admin_staff">Administrative Staff</a> | <a href="our_staff.html#teach_staff">Teaching Staff</a>
+                        <a href="our_staff.html#about_staff">Staff Qualifications</a> | <a href="our_staff.html#staff_listing">Staff Listing</a>
                     </div>
+                    <a name="about_staff" class="about_staff">
+                        <h2>Staff Qualifications</h2>
+                        <p class="staff_qual_desc">People who work with children are a special kind of people! Because of our commitment to young children, it is our goal to hire and secure staff who possess the following criteria:</p>
+                        <br>
+                        <ul class="staff_qual">
+                            <li>Who love and want to work with young children.</li>
+                            <li>Who have previous experience in childcare.</li>
+                            <li>Who are specially trained and educated in the field of child development.</li>
+                            <li>Who have a minimum education of a high school diploma (full-time employees), or are pursuing a high school diploma (part-time employees).</li>
+                            <li>Who love the Lord Jesus and have a deep devotion to Him.</li>
+                            <li>Who are dedicated to the mission of our program.</li>
+                            <li>Who are physically and mentally capable of working with young children.</li>
+                        </ul>
+                        <br>
+                        <p class="staff_qual_desc">In addition, we also ensure that there is at least one staff member present in each classroom and on every trip who is certified by the American Red Cross in First Aid and CPR.
+                        </p>
+                    </a>
+                <br>
+                <hr>
+                    <a name="staff_listing">
+                        <h2>Staff Listing</h2>
+                        <br>
+                        <div class="jump_to">
+                            <a href="our_staff.html#admin_staff">Administrative Staff</a> | <a href="our_staff.html#teach_staff">Teaching Staff</a>
+                        </div>
+                    </a>
                         <a name="admin_staff">
                             <h2>Administrative Staff</h2>
                             <table class="staff_info">
@@ -67,7 +92,6 @@
                             </table>
                             <br>
                             <hr>
-                            <br>
                         <a name="teach_staff">
                             <h2>Teaching Staff</h2>
                             <p id="staff_toggle" class="toggle_menu">
@@ -129,6 +153,11 @@
                                             <div class="staff_quote">"Heya! My name is Lauren Moore. I'm from Christiansburg, VA, and I've been at the R.O.C.K. Club since May, 2015. I'm a Junior at Radford University majoring in Web Development."</div>
                                             <div class="staff_contact">Contact: <a href="mailto:lmoore12@radford.edu">lmoore12@radford.edu</a></div></td>
                                     </tr>
+                                    <tr>
+                                        <td><img src="assets/staff_photos/heather_timmons.jpg" class="staff_photos" height=125 width=125></td>
+                                        <td><h3 class="staff_name">Heather Timmons</h3>
+                                            <div class="staff_quote">"My name is Heather Timmons. I am attending my second year at Radford University and I am majoring in child psychology. I hope to open a private practice for kids that have been through different kinds of abuse. This way they feel that there is someone there for them that cares."</div></td>
+                                    </tr>
                             </table>
                             </div>
                         </a>
@@ -148,8 +177,12 @@
     
     				switch(tg) {
                         case 1: $('#school_menu').addClass('teach_select');
+                                $("main").css("height", "3060px");
+                                $("footer").css("top", "3313px");
                             break;
                         default: $('#pre_menu').addClass('teach_select');
+                                 $("main").css("height", "2080px");
+                                 $("footer").css("top", "2333px");
                     }
                     });
                 });

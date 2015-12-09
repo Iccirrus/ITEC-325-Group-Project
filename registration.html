@@ -1,3 +1,44 @@
+<?php
+    $server = "localhost";
+    $user = "rockcl5_rockadmn";
+    $pass = "kids2000";
+    $db = "rockcl5_rockedit";
+
+    $conn = new mysqli($server, $user, $pass, $db);
+
+    $reg_info = "SELECT pre_spots, pre_wait, after_spots, after_wait, summer_spots, summer_wait FROM reg_spots";
+    $info = $conn->query($reg_info);
+
+    while($row = $info->fetch_assoc()) {
+        $pre_spots = $row['pre_spots'];
+        $pre_wait = $row['pre_wait'];
+        $after_spots = $row['after_spots'];
+        $after_wait = $row['after_wait'];
+        $summer_spots = $row['summer_spots'];
+        $summer_wait = $row['summer_wait'];
+    }
+
+    if ($pre_spots == 0) {
+        $pre_spots = "NONE";
+    }
+    if ($pre_wait == 0) {
+        $pre_wait = "NONE";
+    }
+    if ($after_spots == 0) {
+        $after_spots = "NONE";
+    }
+    if ($after_wait == 0) {
+        $after_wait = "NONE";
+    }
+    if ($summer_spots == 0) {
+        $summer_spots = "NONE";
+    }
+    if ($summer_wait == 0) {
+        $summer_wait = "NONE";
+    }
+
+    $conn->close();
+?>
 <!doctype html>
 	<html>
 			<head>
@@ -7,7 +48,7 @@
 					@import url("assets/css/registration.css");
 				</style>
                 <link rel="icon" type="image/png" href="assets/images/favicon-32x32.png" sizes="32x32"/>
-                <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16"/>
+                <link rel="icon" type="image/png" href="assets/images/favicon-16x16.png" sizes="16x16"/>
 			</head>
 		<body class="page">
 			<header class="siteheader"><img class="headerimage" src="assets/images/ROCKClubHeader1.png" width="990" height="248" alt=""/>
@@ -33,9 +74,8 @@
                         </li>
                         <li><a href="registration.html"><img class="registration_button" src="assets/images/header_registration.png" height="42" width="110" onmouseover="this.src='assets/images/header_registration_hover.png';" onmouseout="this.src='assets/images/header_registration.png';"/></a>
                             <ul class="registration_menu">
-                                <li><a href="how_to_register.html">How to Register</a></li>
-                                <li><a href="dates_and_times.html">Dates &amp; Times</a></li>
                                 <li><a href="tuition_and_fees.html">Tuition &amp; Fees</a></li>
+                                <li><a href="payment.html">Payment Information</a></li>
                             </ul>
                             <br class="clear">
                         </li>
@@ -46,6 +86,29 @@
             </header>
 			<main class="body">
                 <h1 class="registration_header">Registration</h1>
+                <br>
+                <h2>Enrolling Your Child</h2>
+                <p class="content">Enrollment is open to all children between the ages of 3 and 12, regardless of race, creed, religion, or national origin, and is available on a full-time, part-time, or drop-in basis. Part time and drop-in enrollments are limited in availability. All enrolled families must complete an application, meet with the director, and tour the facility. To inquire about enrolling your child, please contact us via the contact link in the main menu!</p>
+                <br>
+                <h3>Special Needs Children</h3>
+                <p class="content">Children with special needs require special consideration! The needs of the child come first and are paramount in the enrollment process. If it is determined that the child's needs are outside the capabilities of our facility or staff, parents will be assisted by a referral to an alternative choice in care.</p>
+                <br>
+                <h3>Enrollment Spots</h3>
+                <p class="content">We have a limited number of spots available for enrolling your child, and are filled on a first-come, first-served basis. Any parent wishing to register their child for a filled program will be able to place themselves on a waiting list. The list below will show you the number of spots available in our various programs, and the length of the waiting list, if any. We strive to keep this list as up-to-date as possible, but you are free to contact us for the most current information!</p>
+                <br>
+                <div class="reg_spots">
+                    Pre-School Spots Available: <?php echo $pre_spots; ?>.
+                    <br>
+                    Pre-School Waiting List: <?php echo $pre_wait; ?>.
+                    <br>
+                    After-School Spots Available: <?php echo $after_spots; ?>.
+                    <br>
+                    After-School Waiting List: <?php echo $after_wait; ?>.
+                    <br>
+                    Summer Program Spots Available: <?php echo $summer_spots; ?>.
+                    <br>
+                    Summer Program Waiting List: <?php echo $summer_wait; ?>.
+                </div>
             </main>
             <footer class="sitefooter"> <a href="homepage.html">Home</a> | <a href="sitemap.html">Sitemap</a> | <a href="about_us.html">About</a> | <a href="contact_us.html">Contact</a>
 				<br>
